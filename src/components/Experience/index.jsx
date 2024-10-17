@@ -36,3 +36,5 @@ export const Experience = memo(() => {
     </>
   );
 });
+
+Experience.displayName = 'Experience';

@@ -1,14 +1,8 @@
-import localFont from 'next/font/local';
 import './globals.css';
 import Header from '@/sections/header';
 import { ColorProvider } from '@/context/ColorContext';
 import { ThemeProvider } from '@mui/material/styles';
 import { customTheme } from '@/theme/get-custom-theme';
-
-const robotoMonoRegular = localFont({
-  src: './fonts/Roboto-Mono-Regular.woff2',
-  display: 'swap',
-});
 
 export const metadata = {
   title: 'Create Next App',
@@ -18,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className={`${robotoMonoRegular.className} `}>
+      <body>
         <ColorProvider>
           <ThemeProvider theme={customTheme}>
             <Header />

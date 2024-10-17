@@ -2,8 +2,6 @@
 import React, { useContext } from 'react';
 import { Button, Container, Divider, Typography } from '@mui/material';
 import Grid from '@mui/material/Grid2';
-import { ColorContext } from '@/context/ColorContext';
-
 import { DiGithubBadge } from 'react-icons/di';
 import { IoLogoLinkedin } from 'react-icons/io';
 
@@ -24,8 +22,6 @@ function Copyright() {
 }
 
 export const Footer = () => {
-  const { color } = useContext(ColorContext);
-  console.log('🚀 -> Hero -> color->', color);
   return (
     <Grid
       container
