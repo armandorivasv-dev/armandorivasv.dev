@@ -3,6 +3,7 @@ import Header from '@/sections/header';
 import { ColorProvider } from '@/context/ColorContext';
 import { ThemeProvider } from '@mui/material/styles';
 import { customTheme } from '@/theme/get-custom-theme';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export const metadata = {
   title: 'Armando Rivas V | Portafolio',
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
           <ThemeProvider theme={customTheme}>
             <Header />
             {children}
+            <SpeedInsights />
           </ThemeProvider>
         </ColorProvider>
       </body>
