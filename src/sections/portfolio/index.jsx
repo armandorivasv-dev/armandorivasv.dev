@@ -15,17 +15,17 @@ const dataPortfolio = [
   {
     title: 'ViCO Biz',
     image: '/assets/images/vico_biz.png',
-    url: 'https://www.salmed.net/',
+    url: 'https://vicobiz.com/',
   },
   {
     title: 'Safehis',
     image: '/assets/images/safehis.png',
-    url: 'https://www.salmed.net/',
+    url: 'https://safehis.vercel.app/',
   },
   {
     title: 'VICO Science',
     image: '/assets/images/vico_science.png',
-    url: 'https://www.salmed.net/',
+    url: 'https://vicoscience.com/',
   },
 ];
 
