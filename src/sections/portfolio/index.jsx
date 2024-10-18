@@ -48,14 +48,15 @@ export const Portfolio = () => {
         alignItems='center'
       >
         <Typography
-          variant={mdUp ? 'h2' : 'h3'}
+          variant={mdUp ? 'h2' : 'h4'}
           color={color}
         >
           Portafolio
         </Typography>
         <Typography
-          variant='subtitle1'
+          variant={mdUp ? 'subtitle1' : 'subtitle2'}
           textAlign={'center'}
+          paddingTop={4}
         >
           He desarrollado una variedad de proyectos frontend, incluyendo dashboards interactivos, aplicaciones web para
           análisis de datos y sitios web personalizados. Mi enfoque se centra en crear soluciones eficientes y
@@ -74,7 +75,6 @@ export const Portfolio = () => {
           container
           justifyContent={'center'}
           alignItems={'center'}
-          paddingTop={4}
           spacing={4}
         >
           {dataPortfolio.map((item, index) => (

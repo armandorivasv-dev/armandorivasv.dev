@@ -67,7 +67,7 @@ export const Skills = () => {
               sx={{ borderColor: color }}
             />
             <Typography
-              variant='subtitle1'
+              variant={mdUp ? 'subtitle1' : 'subtitle2'}
               sx={{ maxWidth: '90%' }}
             >
               {skill.description}

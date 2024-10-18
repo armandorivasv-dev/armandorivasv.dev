@@ -32,14 +32,19 @@ export const Hero = () => {
           textAlign={'right'}
           sx={{ py: mdUp ? '15vh' : '0vh' }}
         >
-          <Typography variant='subtitle1'>Hola, mi nombre es</Typography>
           <Typography
-            variant={mdUp ? 'h1' : 'h3'}
+            variant='subtitle1'
+            //marginTop={-20}
+          >
+            Hola, mi nombre es
+          </Typography>
+          <Typography
+            variant={mdUp ? 'h1' : 'h4'}
             color={color}
           >
             Armando Rivas
           </Typography>
-          <Typography variant='subtitle1'>
+          <Typography variant={mdUp ? 'subtitle1' : 'subtitle2'}>
             Soy desarrollador FrontEnd enfocado en crear interfaces limpias, atractivas y altamente funcionales, que
             brinden una experiencia excepcional a los usuarios.
           </Typography>
@@ -49,7 +54,7 @@ export const Hero = () => {
             sx={{ mt: '2vh', bgcolor: color, color: 'black' }}
             href='mailto:armandorivasv.dev@gmail.com'
           >
-            Contactame
+            Contáctame
           </Button>
         </Grid>
       </Grid>

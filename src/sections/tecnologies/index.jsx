@@ -54,7 +54,7 @@ export const Tecnologies = () => {
         justifyContent='center'
       >
         <Typography
-          variant={mdUp ? 'h2' : 'h3'}
+          variant={mdUp ? 'h2' : 'h4'}
           color={color}
         >
           Tecnologías
