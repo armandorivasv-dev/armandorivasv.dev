@@ -16,24 +16,24 @@ const dataSkills = [
     description: <DiJsBadge />,
   },
   {
-    title: 'GitHub',
-    description: <DiGithubBadge />,
+    title: 'React',
+    description: <RiReactjsFill />,
   },
   {
     title: 'Next',
     description: <RiNextjsFill />,
   },
   {
-    title: 'React',
-    description: <RiReactjsFill />,
-  },
-  {
-    title: 'React',
+    title: 'MUI',
     description: <SiMui />,
   },
   {
-    title: 'React',
+    title: 'Git',
     description: <FaGit />,
+  },
+  {
+    title: 'GitHub',
+    description: <DiGithubBadge />,
   },
 ];
 
@@ -45,7 +45,8 @@ export const Tecnologies = () => {
       container
       justifyContent='center'
       alignItems='center'
-      paddingTop={mdUp ? 10 : 8}
+      paddingTop={mdUp ? 0 : 8}
+      //paddingTop={mdUp ? 10 : 8}
     >
       <Grid
         size={{ xs: 11, md: 10 }}

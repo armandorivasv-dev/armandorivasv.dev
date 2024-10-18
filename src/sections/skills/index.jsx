@@ -31,7 +31,8 @@ export const Skills = () => {
       container
       justifyContent='center'
       alignItems='center'
-      paddingTop={mdUp ? 0 : 8}
+      paddingTop={mdUp ? 10 : 8}
+      //paddingTop={mdUp ? 0 : 8}
 
       //height={'80vh'}
     >

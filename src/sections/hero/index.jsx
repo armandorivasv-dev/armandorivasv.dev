@@ -33,7 +33,12 @@ export const Hero = () => {
           sx={{ py: mdUp ? '15vh' : '0vh' }}
         >
           <Typography variant='subtitle1'>Hola, mi nombre es</Typography>
-          <Typography variant={mdUp ? 'h1' : 'h3'}>Armando Rivas</Typography>
+          <Typography
+            variant={mdUp ? 'h1' : 'h3'}
+            color={color}
+          >
+            Armando Rivas
+          </Typography>
           <Typography variant='subtitle1'>
             Soy desarrollador FrontEnd enfocado en crear interfaces limpias, atractivas y altamente funcionales, que
             brinden una experiencia excepcional a los usuarios.

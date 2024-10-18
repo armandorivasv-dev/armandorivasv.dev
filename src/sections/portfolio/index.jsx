@@ -55,11 +55,11 @@ export const Portfolio = () => {
         </Typography>
         <Typography
           variant='subtitle1'
-          color={color}
           textAlign={'center'}
         >
-          He trabajado en diversos proyectos de FrontEnd, como Dashboards, Aplicaciones Web para analisis de data y
-          WebSites.
+          He desarrollado una variedad de proyectos frontend, incluyendo dashboards interactivos, aplicaciones web para
+          análisis de datos y sitios web personalizados. Mi enfoque se centra en crear soluciones eficientes y
+          optimizadas para brindar una experiencia de usuario fluida.
         </Typography>
       </Grid>
       <Grid
@@ -67,6 +67,7 @@ export const Portfolio = () => {
         container
         justifyContent={'center'}
         alignItems={'center'}
+        paddingTop={4}
       >
         <Grid
           size={{ xs: 12, md: 12 }}
